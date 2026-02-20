@@ -1,0 +1,126 @@
+{
+  "repository_url": "https://github.com/Myngruan/COBOL-Fibonacci-Sequence.git",
+  "repository_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence",
+  "output_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence",
+  "status": "parcial",
+  "started_at": "2026-02-20T13:16:00.529563",
+  "finished_at": "2026-02-20T13:17:47.716812",
+  "duration_seconds": 107.187249,
+  "total_files_scanned": 1,
+  "total_files_converted": 1,
+  "aggregated_metrics": {
+    "total_lines_cobol": 92,
+    "total_lines_java": 0,
+    "total_paragraphs": 10,
+    "paragraphs_converted": 10,
+    "total_variables": 7,
+    "variables_converted": 7,
+    "total_commands": 0,
+    "commands_supported": 36,
+    "commands_unsupported": 6,
+    "conversion_rate_percent": 85.71,
+    "todos_generated": 7,
+    "copybooks_found": 0,
+    "copybooks_missing": 0,
+    "external_calls": 0,
+    "file_operations": 0
+  },
+  "file_reports": [
+    {
+      "cobol_file": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+      "java_files": [
+        "Fib.java"
+      ],
+      "status": "parcial",
+      "conversion_time_seconds": 107.162,
+      "metrics": {
+        "total_lines_cobol": 92,
+        "total_lines_java": 0,
+        "total_paragraphs": 10,
+        "paragraphs_converted": 10,
+        "total_variables": 7,
+        "variables_converted": 7,
+        "total_commands": 0,
+        "commands_supported": 36,
+        "commands_unsupported": 6,
+        "conversion_rate_percent": 85.71,
+        "todos_generated": 7
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "*> THIS ACCEPTS INPUT AND DETERMINES THE OUTPUT USING A EVAL STMT",
+          "command_type": "unknown"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT I-MAX",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "*> PROVIDE ERROR FOR INVALID INPUT",
+          "command_type": "unknown"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "THE PROGRAM WILL NOW END'",
+          "command_type": "unknown"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "*> END THE PROGRAM WITH A MESSAGE",
+          "command_type": "unknown"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "END PROGRAM FIB",
+          "command_type": "unknown"
+        },
+        {
+          "file_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    }
+  ],
+  "global_warnings": [],
+  "assumptions": [
+    "Variáveis PIC 9 são mapeadas para int/long baseado no tamanho",
+    "Variáveis PIC X são mapeadas para String",
+    "Variáveis com V (decimal) são mapeadas para BigDecimal",
+    "Parágrafos COBOL são convertidos para métodos públicos",
+    "WORKING-STORAGE são convertidos para campos privados da classe"
+  ],
+  "limitations": [
+    "EXEC SQL requer conversão manual para JDBC/JPA",
+    "EXEC CICS requer conversão manual para API REST",
+    "Copybooks não resolvidos geram stubs",
+    "Aritmética de ponto fixo pode ter diferenças de precisão"
+  ]
+}
