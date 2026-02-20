@@ -1,0 +1,69 @@
+{
+  "repository_url": "https://github.com/Myngruan/COBOL-Fibonacci-Sequence.git",
+  "repository_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence",
+  "output_path": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence",
+  "status": "sucesso",
+  "started_at": "2026-02-20T13:21:11.152408",
+  "finished_at": "2026-02-20T13:21:55.450614",
+  "duration_seconds": 44.298206,
+  "total_files_scanned": 1,
+  "total_files_converted": 1,
+  "aggregated_metrics": {
+    "total_lines_cobol": 92,
+    "total_lines_java": 0,
+    "total_paragraphs": 10,
+    "paragraphs_converted": 10,
+    "total_variables": 7,
+    "variables_converted": 7,
+    "total_commands": 0,
+    "commands_supported": 4,
+    "commands_unsupported": 0,
+    "conversion_rate_percent": 100.0,
+    "todos_generated": 0,
+    "copybooks_found": 0,
+    "copybooks_missing": 0,
+    "external_calls": 0,
+    "file_operations": 0
+  },
+  "file_reports": [
+    {
+      "cobol_file": "C:\\Users\\Labes\\agente-conversao-cobol\\repositorios\\COBOL-Fibonacci-Sequence\\fib.cbl",
+      "java_files": [
+        "Fib.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 44.283,
+      "metrics": {
+        "total_lines_cobol": 92,
+        "total_lines_java": 0,
+        "total_paragraphs": 10,
+        "paragraphs_converted": 10,
+        "total_variables": 7,
+        "variables_converted": 7,
+        "total_commands": 0,
+        "commands_supported": 4,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    }
+  ],
+  "global_warnings": [],
+  "assumptions": [
+    "Variáveis PIC 9 são mapeadas para int/long baseado no tamanho",
+    "Variáveis PIC X são mapeadas para String",
+    "Variáveis com V (decimal) são mapeadas para BigDecimal",
+    "Parágrafos COBOL são convertidos para métodos públicos",
+    "WORKING-STORAGE são convertidos para campos privados da classe"
+  ],
+  "limitations": [
+    "EXEC SQL requer conversão manual para JDBC/JPA",
+    "EXEC CICS requer conversão manual para API REST",
+    "Copybooks não resolvidos geram stubs",
+    "Aritmética de ponto fixo pode ter diferenças de precisão"
+  ]
+}
